@@ -1,0 +1,66 @@
+# 忽略 macOS 系统文件
+.DS_Store
+
+# 忽略 Windows 系统文件
+Thumbs.db
+ehthumbs.db
+
+# 忽略 Linux 系统文件
+*~
+
+# 忽略日志文件和数据库文件
+*.log
+*.sql
+*.sqlite
+
+# 忽略依赖文件夹（例如 node_modules, vendor 等）
+node_modules/
+bower_components/
+vendor/
+
+# 忽略编译后的文件
+/dist
+/build
+/out
+/target
+*.class
+*.o
+*.so
+*.dll
+*.exe
+
+# 忽略临时文件
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# 忽略 IDE 配置文件
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# 忽略 Python 文件
+*.pyc
+*.pyo
+__pycache__/
+
+# 忽略 Java 文件
+*.class
+*.jar
+*.war
+*.ear
+
+# 忽略 Ruby 文件
+*.gem
+*.rbc
+.bundle/
+.config/
+coverage/
+InstalledFiles
+yarn-error.log
+
+# 忽略编译工具缓存
+/.sass-cache
+.cache
